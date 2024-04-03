@@ -40,13 +40,13 @@ elif app_mode=="Prediction":
     prop={"Rural":1,'Urban':2,"SemiUrban":3}
 
     ApplicationIncome=st.sidebar.slider(
-        label='ApplicationIncome',
+        label='ApplicationIncome ($)',
         min_value=0,
         max_value=10000,
         value=3500
         )
     CoapplicantIncome=st.sidebar.slider(
-        label='CoapplicantIncome',
+        label='CoapplicantIncome ($)',
         min_value=0,
         max_value=10000,
         value=4500
