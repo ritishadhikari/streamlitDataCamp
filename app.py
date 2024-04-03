@@ -31,7 +31,7 @@ if app_mode=="Home":
     st.markdown("Application Income Vs Loan Amount")
     st.bar_chart(data[['ApplicantIncome','LoanAmount']].head(20))
 elif app_mode=="Prediction":
-    st.image("prediction_header.jpg")
+    st.image("prediction_header.JPG")
     st.subheader("Sir/Ma'am, You need to fill all necessary information in order to to know your loan request")
     st.sidebar.header("Informations about the Client:")
     gender_dict={"Male":1,"Female":2}
