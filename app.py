@@ -66,27 +66,27 @@ elif app_mode=="Prediction":
         options=(0.0,1)
     )
     Gender=st.sidebar.radio(
-        label="Gender",
+        label="What's Your Gender?",
         options=tuple(gender_dict.keys())
     )
     Married=st.sidebar.radio(
-        label="Married ?",
+        label="Are you Married ?",
         options=tuple(feature_dict.keys())
     )
     Self_Employed=st.sidebar.radio(
-        label="Are you self employed ?",
+        label="Are you self employed?",
         options=tuple(feature_dict.keys())
         )
     Dependents=st.sidebar.radio(
-        label="Dependents",
+        label="How many Dependents do you have?",
         options=["0","1","2","3+"]
         )
     Education=st.sidebar.radio(
-        label="Education",
+        label="Education Qualification?",
         options=tuple(edu.keys())
         )
     Property_Area=st.sidebar.radio(
-        label="Property Area",
+        label="Property Area for the Loan?",
         options=tuple(prop.keys())
     )
     
